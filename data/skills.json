@@ -1,0 +1,32 @@
+[
+    {
+        "image": "strategie_recette.webp",
+        "title": "STRATÉGIE DE RECETTE",
+        "text": "Conçoit des plans de test bout-en-bout orientés risque/valeur, définit critères d’acceptation, priorise les scénarios et pilote les KPI qualité."
+    },
+    {
+        "image": "gestion_equipe.webp",
+        "title": "GESTION D’ÉQUIPE QA",
+        "text": "Fair monter en compétences l’équipe, organise la charge, standardise les pratiques et assure un reporting clair aux parties prenantes."
+    },
+    {
+        "image": "analyse_technique.webp",
+        "title": "ANALYSE TECHNIQUE",
+        "text": "Diagnostic root cause via logs, traces réseau, SQL et API ; outillage pour reproduire, isoler et fiabiliser les correctifs."
+    },
+    { 
+        "image": "gestion_projet.webp",
+        "title": "GESTION DE PROJET AGILE",
+        "text": "Cadre Scrum/Kanban, synchronise QA/Dev/PO, sécurise les releases et la dette qualité tout en tenant délais et périmètre."
+    },
+    {
+        "image": "anomalies_critiques.webp",
+        "title": "D’ANOMALIES CRITIQUES",
+        "text": "Détection d’anomalie critique, permettant d’améliorer le développement et l’expérience client finale."
+    },
+    {
+        "image": "test.webp",
+        "title": "TEST",
+        "text" : "Réalisation de cahiers de recette, et exécution de tests : UAT, mobiles, d’infrastructures/systèmes, d’outils/logiciels internes…"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "image": "JSE_avocats.webp",
+        "title": "JSE AVOCATS",
+        "text": "Réalisation d’une campagne pour tester le site, déployé via Docker de l’entreprise JSE Avocats. Pour la campagne, seuls des tests manuels ont été exécutés."
+    },
+    {
+        "image": "724_events.webp",
+        "title": "724 EVENTS",
+        "text": "Réalisation d’une campagne pour tester le site, déployé via Docker de l’entreprise 724 Events. Pour la campagne, des tests automatiques et manuels ont été exécutés."
+    },
+    {
+        "image": "PayForge.webp",
+        "title": "PayForge",
+        "text": "Réaliser une stratégie de test, afin de cibler une campagne de tests. Permettant de cadrer et d’assurer la qualité, à la livraison de l’application mobile de l’entreprise PayForge."
+    }
+]

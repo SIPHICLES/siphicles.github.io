@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Samuel IPHICLES - PORTFOLIO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/vnd.icon" href="../images/mini_logo.ico">
+    <link rel="preload" as="image" href="/images/fallback.webp" fetchpriority="high">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" async>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navbarScroll">
+        <div class="container">
+            <img src="images/Logo.webp" alt="logo" class="brand-logo">
+                <a class="navbar-brand" href="#home" data-cy="Acceuil" aria-label="Se rendre a l'acceuil du site">Samuel IPHICLES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" 
+                        data-cy="about" aria-label="Se rendre à la page A propos">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills"
+                        data-cy="skill" aria-label="Se rendre à la page Mes compétences">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project"
+                        data-cy="project" aria-label="Se rendre à la page Mes projets">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences"
+                        data-cy="experiences" aria-label="Se rendre à la page Mes expérienses professionels">Expériences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"
+                        data-cy="contact" aria-label="Se rendre à la page contactez-moi">Contactez-moi</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bg-img" id="home">
+        <div id="home" class="container-fluid">
+            <div class="row">
+              <div class="bg-img">
+                 <picture>
+                    <source media="(max-width: 1024px)" srcset="/images/bg_mobile.webp">
+                    <img src="/images/bg_desktop.webp" alt="Arrière-plan bugs anomalies"
+                        loading="eager" fetchpriority="high" width="1920" height="1080">
+                </picture>
+            </div>
+                <div class="introduction">
+                    <h1 class="hero_title">Bonjour <br>Je m'appelle Samuel IPHICLES</h1>
+                    <p class="hero_desc">Je suis actuellement Lead QA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h2 class="text-center">A propos</h2>
+            <div class="row g-4 align-items-center">
+        <div class="col-12 col-md-6 col-lg-5 text-center text-md-start">
+          <img src="../images/photo_moi.webp" class="img-fluid rounded-4 shadow-sm imageAboutPage" alt="Photo de Samuel IPHICLES">
+        </div>
+        <div class="col-12 col-md-6 col-lg-7">
+          <dl class="kv fs-5 m-0">
+            <dt>Prénom :</dt><dd>Samuel</dd>
+            <dt>Nom :</dt><dd>IPHICLES</dd>
+            <dt>Âge :</dt><dd>30 ans</dd>
+            <dt>Années d'expérience :</dt><dd>8 ans</dd>
+            <dt>Leadership & valeurs :</dt>
+            <dd>
+                <ul class="mb-0">
+                <li>Leadership bienveillant</li>
+                <li>Sens du service</li>
+                <li>Pragmatisme orienté valeur</li>
+                </ul>
+            </dd>
+            
+        </dl>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-lg-9 mx-auto Descrip">
+          <p class="lead align-items-center mb-3">
+            Ancien support IT, j’apporte une culture hardware, software et des bases d’électronique.<br>
+            Aujourd'hui Lead QA avec plus de 8 ans d’expérience, dont 5 ans de pilotage d’équipes. Je gère des projets de test, de l'analyse du besoin à l'élaboration du bilan final d'une campagne de test. Je sécurise les releases par la non-régression et j’industrialise les pratiques. <br>
+            Côté automatisation, j’ai mené des NR sous Selenium/UFT et poursuis ma montée en compétences, sur Robot Framework, Cypress. Sur des environnements intégrés en CI/CD. <br>
+            À l’aise sur Windows/Linux, scripting Bash/PowerShell, SQL/PostgreSQL. Expérience AWS avec le déploiement d’un nœud validateur <a class="link" href="https://github.com/SIPHICLES/Validator" target="_blank" rel="noopener"> blockchain.</a>
+            </p>        
+        </div>
+      </div>
+      <div class="box-3">
+              <div class="btn btn-three">
+                  <a class= "button" href="documents/CV_Samuel_IPHICLES_V3.pdf" download>EN SAVOIR PLUS</a>
+              </div>
+         </div>
+    </div>
+  </div>
+</section> 
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-center">Mes compétences</h2>
+        </div>
+    </section>
+    <!-- projecs section-->
+    <section id="project">
+        <div class="container">
+            <h2 class="text-center">Mes projets</h2>
+        </div>
+    </section>
+    <!-- portfolio section-->
+    <section id="experiences" class="experience-screen">
+  <h2 class="text-center">Mes expériences professionels</h2>
+  <ul class="exp-list">
+    <li class="exp-item">
+      <button class="exp-trigger" type="button" data-template="#exp1-template" aria-haspopup="dialog">
+        <h3 class="exp-title">
+          Dirigeant & Responsable QA chez S.I Tests & Consulting (Freelance) →
+          <span class="exp-year">De juin 2025 à Aujourd’hui</span>
+        </h3>
+        <p class="exp-mission">
+            Développer des offres de services en tests fonctionnels et automatisés afin d’accompagner les entreprises sur leurs projets digitaux.
+        </p>
+      </button>
+      <template id="exp1-template">
+        <article class="exp-full">
+            <h3 id="exp-modal-title">Dirigeant & Responsable QA chez S.I Tests & Consulting (Freelance) →<br> <small>De juin 2025 à Aujourd’hui</small></h3>
+            <p><strong>Lieu :</strong> À domicile</p>
+            <p><strong>Mission :</strong> Développer des offres de services en tests fonctionnels et automatisés afin d’accompagner les entreprises sur leurs projets digitaux.</p>
+            <p><strong>Projets majeurs :</strong></p>
+            <ul>
+                <li>Création d’une auto-entreprise spécialisée dans la qualité logicielle et l’optimisation des processus de tests.</li>
+                <li>Réalisation d’une étude de marché ciblant les entreprises de la région Occitanie.</li>
+                <li>Élaboration d’un plan stratégique 2025 pour répondre aux besoins identifiés.</li>
+                <li>Mise en place d’actions de prospection pour constituer un portefeuille client.</li>
+            </ul>
+            <p><strong>Actions clés :</strong></p>
+            <ul>
+                <li>Ciblage et analyse de projets digitaux nécessitant des campagnes de tests.</li>
+                <li>Auto-financement et suivi de formations spécialisées sur les outils d’automatisation.</li>
+                <li>Veille technologique active pour anticiper les tendances du marché QA.</li>
+          </ul>
+          <p><strong>Outils :</strong></p>
+            <ul>
+                <li><strong>D'automatisation de test:</strong> Selenium, Cypress, Robot Framework</li>
+                <li><strong>IDE:</strong> VS Code, Eclipse, PyCharm</li>
+                <li><strong>D'Intelligence Artificiel:</strong> ChatGPT, Claude IA</li>
+          </ul> 
+        </article>
+      </template>
+    </li>
+    <li class="exp-item">
+      <button class="exp-trigger" type="button" data-template="#exp2-template" aria-haspopup="dialog">
+        <h3 class="exp-title">Test LEAD chez AUBAY →
+          <span class="exp-year"> De octobre 2022 à février 2025</span>
+        </h3>
+        <p class="exp-mission">
+          Assurer le rôle de Test Lead au sein d’un centre de test de 8 testeurs.
+        </p>
+      </button>
+      <template id="exp2-template">
+        <article class="exp-full">
+            <h3 id="exp-modal-title">Test LEAD chez AUBAY →<br> <small>De novembre 2022 à février 2025</small></h3>
+            <p><strong>Lieu :</strong> Paris Montparnasse (sur site client)</p>
+            <p><strong>Client</strong> Crédit Agricole Assurances | Département : Assurances Des Emprunteurs</p>
+            <p><strong>Mission :</strong> DAssurer le rôle de Test Lead au sein d’un centre de test de 8 testeurs.</p>
+            <p><strong>Projets majeurs :</strong></p>
+            <ul>
+                <li>Lead d’un centre de tests de +/- 8 testeurs.</li>
+                <li>Récupération du périmètre CMA et refonte du process de test.</li>
+                <li>Mise en place du circuit de livraison pour correctif de production en mode AGILE.</li>
+                <li>Mise en place d’un nouveau produit pour une nouvelle cible de client.</li>
+            </ul>
+            <p><strong>Actions clés :</strong></p>
+            <ul>
+                <li>Point de communication entre les testeurs et le client.</li>
+                <li>Planification et animation de comité (COMOP, COPIL, COREC...).</li>
+                <li>Formation des nouveaux arrivants / Organisation d’atelier pour capitaliser sur les connaissances</li>
+                <li>Budgétisation de la charge.</li>
+                <li>Création de consignes et planification des BATCH d’environnements</li>
+          </ul>
+          <p><strong>Outils :</strong></p>
+            <ul>
+                <li><strong>D'automatisation de test:</strong>JENKINS</li>
+                <li><strong>De test:</strong> SauceLABS, Postman, Kafka, Kibana, SQLDeveloper</li>
+                <li><strong>De conception de test:</strong> ALM QC, JIRA, PyCharm </li>
+                <li><strong>En interne:</strong> ServiceNOW, DXC Graphtalk</li>
+                <li><strong>De bureautique:</strong> Suite OFFICE</li>
+          </ul>
+        </article>
+      </template>
+    </li>
+    <li class="exp-item">
+      <button class="exp-trigger" type="button" data-template="#exp3-template" aria-haspopup="dialog">
+        <h3 class="exp-title">
+          Test LEAD chez Capgemini Engineering →
+          <span class="exp-year">De février 2020 à octobre 2022</span>
+        </h3>
+        <p class="exp-mission">
+          Assurer le rôle de Test Lead au sein d’un centre de test de 5 testeurs.
+        </p>
+      </button>
+      <template id="exp3-template">
+        <article class="exp-full">
+            <h3 id="exp-modal-title">Test LEAD chez Capgemini Engineering →<br><small>De février 2020 à octobre 2022</small></h3>
+            <p><strong>Lieu :</strong>Paris Balard (sur site client)</p>
+            <p><strong>Client :</strong>Altice France | Département : B2C/B2B Mobile | Service : Back End</p>
+            <p><strong>Mission :</strong> Assurer le rôle de Test Lead au sein d’un centre de test de 5 testeurs.</p>
+            <p><strong>Projets majeurs :</strong></p>
+            <ul>
+                <li>Lead d’un centre de tests de +/- 5 testeurs.</li>
+                <li>Mise en place de nouveaux outils de tests et de suivi d’anomalies.</li>
+                <li>Refonte de tout le process de test.</li>
+                <li>Mise en place d’un nouveau process de test pour les projets de type « Repost ».</li>
+                <li>Refonte des moyens de communication des testeurs sur leurs avancements.</li>
+            </ul>
+            <p><strong>Actions clés :</strong></p>
+            <ul>
+                <li>Point de communication entre les testeurs et le client.</li>
+                <li>Planification et animation de comité (COMOP, COPIL, COREC...).</li>
+                <li>Formation des nouveaux arrivants / Organisation d’atelier pour capitaliser sur les connaissances.</li>
+                <li>Renfort des QA (conception /exécution de tests, détection/rédaction/suivie d’anomalies).</li>
+                <li>Etude d'automatisation des tests avec Selenium</li>
+          </ul>
+          <p><strong>Outils :</strong></p>
+            <ul>
+                <li><strong>D'automatisation de test:</strong>Selenium</li>
+                <li><strong>De test:</strong>SQLDeveloper</li>
+                <li><strong>De conception de test:</strong> SQUASH, Mantis BT</li>
+                <li><strong>En interne:</strong> Simplicité</li>
+                <li><strong>De bureautique:</strong> Suite OFFICE</li>
+          </ul>
+        </article>
+      </template>
+    </li>
+    <li class="exp-item">
+      <button class="exp-trigger" type="button" data-template="#exp4-template" aria-haspopup="dialog">
+        <h3 class="exp-title">
+          Testeur fonctionnel chez Capgemini Engineering → 
+          <span class="exp-year">De juillet 2018 à février 2020</span>
+        </h3>
+        <p class="exp-mission">
+          Monter en compétences afin de devenir le testeur référent du centre de test, composé de 6 testeurs.
+        </p>
+      </button>
+      <template id="exp4-template">
+        <article class="exp-full">
+            <h3 id="exp-modal-title">Testeur fonctionnel chez Capgemini Engineering →<br><small>De juillet 2018 à février 2020</small></h3>
+            <p><strong>Lieu :</strong>Paris Balard (sur site client)</p>
+            <p><strong>Client : </strong>Altice France | Département : B2C/B2B Mobile | Service : Back End</p>
+            <p><strong>Mission :</strong>Monter en compétences afin de devenir le testeur référent du centre de test, composé de 6 testeurs.</p>
+            <p><strong>Projets majeurs :</strong></p>
+            <ul>
+                <li>Nouvelle technologie 5G.</li>
+                <li>Nouvelle mécanique de migration avec ou sans mobile pour les clients SFR/RED.</li>
+                <li>Nouvelle méthode de paiement en plusieurs fois depuis la boutique en ligne.</li>
+                <li>Mise à jour de l’infrastructure.</li>
+                <li>Sortie d’offres avec des partenaires confidentiels.</li>
+            </ul>
+            <p><strong>Actions clés :</strong></p>
+            <ul>
+                <li>Référent technique de l’équipe.</li>
+                <li>Rédaction et réalisation des scénarios de tests.</li>
+                <li>Exécution de tests de : UAT, provisionning d’équipements télécom, logiciel mobile (IOS/Android), infrastructures / systèmes, outils/logiciels interne, sécurité, performances.</li>
+                <li>Communication de l’avancement, points de blocages et anomalies de mes projets.</li>
+                <li>Organisation d’atelier pour la montée en compétence sur les nouvelles mécaniques, technologie…</li>
+          </ul>
+          <p><strong>Outils :</strong> Robot Framework (VS Code, Eclipse, PyCharm), Selenium, Cypress, Jira, Xray.</p>
+          <ul>
+                <li><strong>De test:</strong> SQLDeveloper</li>
+                <li><strong>En interne:</strong> Simplicité</li>
+                <li><strong>De bureautique:</strong> Suite OFFICE</li>
+          </ul>
+        </article>
+      </template>
+    </li>
+    <li class="exp-item">
+      <button class="exp-trigger" type="button" data-template="#exp5-template" aria-haspopup="dialog">
+        <h3 class="exp-title">
+          Support informatique de niveau III chez Capgemini Engineering →
+          <span class="exp-year">De juillet 2017 à juillet 2018</span>
+        </h3>
+        <p class="exp-mission">
+          Assurer un rôle de support niveau 3, afin d’assurer le bon traitement des ordres de traitement par les équipements réseaux.
+        </p>
+      </button>
+      <template id="exp5-template">
+        <article class="exp-full">
+            <h3 id="exp-modal-title">Technicien Support Niveau 3 chez Capgemini Engineering →<br><small>De juillet 2017 à juillet 2018</small></h3>
+            <p><strong>Lieu :</strong>Seine-Saint-Denis (sur site client)</p>
+            <p><strong>Client : </strong>Altice France | Département : B2C/B2B Mobile | Service : Back End</p>
+            <p><strong>Mission :</strong> Assurer un rôle de support niveau 3, afin d’assurer le bon traitement des ordres de traitement par les équipements réseaux.</p>
+            <p><strong>Projets majeurs :</strong></p>
+            <ul>
+                <li>Récupération du périmètre B2B.</li>
+                <li>Mise en place de squelette de requête pour la consultation/modification de base de données.</li>
+            </ul>
+            <p><strong>Actions clés :</strong></p>
+            <ul>
+                <li>Supervision des équipement réseau.</li>
+                <li>Création de procédure d'exécution.</li>
+                <li>Traitement des scripts KO créés automatiquement</li>
+                <li>Requêtage en base de données pour mise a jour des entrées</li>
+          </ul>
+          <p><strong>Outils :</strong>SQLDeveloper</p>
+          <ul>
+                <li><strong>de Requête en BDD:</strong> SQLDeveloper</li>
+          </ul>
+        </article>
+      </template>
+    </li>
+    <li class="exp-item">
+      <button class="exp-trigger" type="button" data-template="#exp6-template" aria-haspopup="dialog">
+        <h3 class="exp-title">
+          Technicien Support Niveau 2 chez LIDL France (Alternance) →
+          <span class="exp-year">De juin 2015 à juin 2017</span>
+        </h3>
+        <p class="exp-mission">
+          Apprendre et monter en compétences sur le poste de support de niveau 2.
+        </p>
+      </button>
+      <template id="exp6-template">
+        <article class="exp-full">
+            <h3 id="exp-modal-title">Technicien Support Niveau 2 chez LIDL France (Alternance) →<br><small>De juin 2015 à juin 2017</small></h3>
+            <p><strong>Lieu :</strong> Rungis</p>
+            <p><strong>Mission :</strong> Développer une offre de services en tests fonctionnels et automatisés afin d’accompagner les entreprises sur leurs projets digitaux.</p>
+            <p><strong>Projets majeurs :</strong></p>
+            <ul>
+                <li>Déménagement informatique d’une Direction Régional (100 utilisateurs + 5 solutions d’impression impactées).</li>
+                <li>Remplacement du parc de MacOS (70 utilisateurs impactés).</li>
+            </ul>
+            <p><strong>Actions clés :</strong></p>
+            <ul>
+                <li>Support Helpdesk N2</li>
+                <li>Suivi des prestataires externes et des incidents matériels.</li>
+                <li>Gestion de l'Active Directory.</li>
+                <li>Rédaction de documents de formation.</li>
+          </ul>
+          <p><strong>Outils :</strong></p>
+            <ul>
+                <li><strong>De parmétrage réseau: </strong>CISCO VOIP, CISCO Serveurs</li>
+                <li><strong>De scripting:</strong> Powershell</li>
+                <li><strong>De gestion du S.I:</strong> Windows (Client et serveur), Linux serveur, BIOS, Active Directory</li>
+                <li><strong>De virtualisation:</strong> VMWarre</li>
+                <li><strong>De bureautique:</strong> Suite OFFICE, IBM NOTE</li>
+            </ul>
+        </article>
+      </template>
+    </li>
+  </ul>
+
+  <!-- Modale réutilisée -->
+  <dialog id="exp-modal" aria-labelledby="exp-modal-title">
+    <button class="modal-close" aria-label="Fermer le pop-up">×</button>
+    <div id="exp-modal-content"></div>
+  </dialog>
+</section>
+     <!-- ÉCRAN 1 : Formulaire -->
+        <section id="contact" class="contact-screen">
+            <h2 class="page-title">Contactez-moi</h2>
+            <!-- Colonne gauche : formulaire -->
+            <div class="contactContent">
+            <h3 class="contact-subtitle left">Merci de remplir le formulaire, afin de me contacter</h3>
+            <form method="POST" action="php/sendcontact.php" class="form" data-cy="form-contact" aria-label="Formulaire de contact">
+                <input type="text" name="website" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;">
+                <div class="form-row two">
+                <div class="form-field">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre Prénom"
+                        autocomplete="given-name" maxlength="50" required data-cy="prenom" aria-label="Saisir votre prénom">
+                </div>
+                <div class="form-field">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre NOM"
+                        autocomplete="family-name" maxlength="80" required data-cy="nom" aria-label="Saisir votre NOM d'usage">
+                </div>
+                </div>
+                <div class="form-row two">
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="exemple@email.fr"
+                        autocomplete="email" maxlength="254" required data-cy="email" aria-label="Saisir votre email">
+                </div>
+                <div class="form-field">
+                    <label for="tel">Téléphone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="0612345678"
+                        inputmode="numeric" maxlength="10" data-cy="tel" aria-label="Saisir votre n° de téléphone">
+                </div>
+                </div>
+                <div class="form-row one">
+                <div class="form-field">
+                    <label for="entreprise">Entreprise</label>
+                    <input type="text" id="entreprise" name="entreprise"
+                        placeholder="votre entreprise ? (facultatif)"
+                        autocomplete="organization" data-cy="entreprise" aria-label="Saisie facultatif de votre entreprise">
+                </div>
+                </div>
+                <div class="form-row one">
+                <div class="form-field">
+                    <label for="objet">Objet</label>
+                    <input type="text" id="objet" name="objet" placeholder="Motif du contact" 
+                    required data-cy="objet" aria-label="Saisir l'objet de la demande de contacte">
+                </div>
+                </div>
+                <div class="form-row one">
+                <div class="form-field">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Saisissez votre message"
+                    maxlength="2000" required data-cy="message" aria-label="Saisisir votre message"></textarea>
+                </div>
+                </div>
+                <div class="form-row actions ">
+                    <div class="btn_envoie">
+                        <button type="submit" id="button_envoie" class="button" data-cy="btn_envoi" aria-label="Bouton pour envoyer le formulaire de contacte">ENVOYER VOTRE MESSAGE</button>
+                        <p aria-live="polite" id="form-status" class="sr-only"></p>
+                    </div>
+                </div>
+            </form>
+            </div>
+            <!-- Colonne droite (optionnelle) -->
+            <aside class="contactAside">
+                <section id="information" class="info-screen">
+                  <div class="info-list">
+                    <a class="info-bubble" href="tel:+33762873683" data-cy="tel" aria-label="Mon numéron de téléphone afin de me contacter">
+                    <img src="images/tel.webp" alt="Téléphone" data-cy="img_tel" aria-label="Logo téléphone">
+                 <div class="info-text">
+                        <h4>Téléphone</h4>
+                        <span class="info-value">07.62.87.36.83</span>
+                    </div>
+                    </a>
+                    <a class="info-bubble" href="mailto:samuel.iphicles@gmail.com" data-cy="email" aria-label="Mon eMail afin de me contacter">
+                        <img src="images/mail.webp" alt="email" data-cy="img_email" aria-label="Logo email">
+                        <div class="info-text">
+                            <h4>e-Mail</h4>
+                            <span class="info-value">samuel.iphicles@gmail.com</span>
+                    </div>
+                    </a>
+                    <a class="info-bubble" href="https://www.linkedin.com/in/samuel-iphicles-7b8758162/" target="_blank" rel="noopener" data-cy="url_linkedin" aria-label="URL redirigean sur mon profil LinkedIn">
+                    <img src="images/linkedin.webp" alt="LinkedIn" data-cy="img_github" aria-label="Logo LinkedIn">
+                    <div class="info-text">
+                        <h4>LinkedIn</h4>
+                        <span class="info-value">Samuel IPHICLES</span>
+                    </div>
+                    </a>
+                    <a class="info-bubble" href="https://github.com/SIPHICLES" target="_blank" rel="noopener" data-cy="url_github" aria-label="URL redirigean sur mon profil Github">
+                    <img src="images/github.webp" alt="GitHub" data-cy="img_github" aria-label="Logo Github">
+                    <div class="info-text">
+                        <h4>GitHub</h4>
+                        <span class="info-value">SIPHICLES</span>
+                    </div>
+                    </a>
+                    </div>
+                </section>
+            </aside>
+        </section>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>
