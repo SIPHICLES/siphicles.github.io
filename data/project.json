@@ -1,6 +1,6 @@
 [
     {
-        "image": "JSE_avocats.webp",
+        "image": "JSE_Avocats.webp",
         "title": "JSE AVOCATS",
         "text": "Réalisation d’une campagne pour tester le site, déployé via Docker de l’entreprise JSE Avocats. Pour la campagne, seuls des tests manuels ont été exécutés."
     },
