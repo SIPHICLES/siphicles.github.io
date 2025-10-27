@@ -13,7 +13,7 @@ function createSkillsFromJSON(){const container=document.querySelector("#skills 
 function createProjectFromJSON(){const container=document.querySelector("#project .container");let row=document.createElement("div");row.classList.add("row");fetch("data/project.json").then((response)=>response.json()).then((data)=>{data.forEach((item,index)=>{const card=document.createElement("div");card.classList.add("col-lg-4","mt-4");card.innerHTML=`
                     <div class="card projectText">
                         <div class="card-body">
-                            <img class="card-img-skill" src="images/${item.image}" style="width:100%" alt="img_${item.title}">
+                            <img class="card-img-projet" src="images/${item.image}" style="width:100%" alt="img_${item.title}">
                             <h3 class="card-title mt-3">${item.title}</h3>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
